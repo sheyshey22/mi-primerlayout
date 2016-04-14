@@ -1,0 +1,118 @@
+*{outline: 1px solid rgba(255,0,0,0.4);}
+
+body{
+	text-align: center;
+}
+.container{
+	width: 700px;
+	margin: auto; 
+}
+img{
+	max-width: 100%; 
+}
+.menu{
+	list-style-type: none;
+    padding: 10px;
+    margin: 10 0 10 0;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.menu li{
+	display: inline-block;
+	margin-left: 50px;
+	font-size: 20px;
+	border-right: 1px solid #000;
+}
+.menu li:last-child{
+	border-right: none;
+}
+.menu li a{
+	display: block;
+	padding: 0 10px;
+	text-decoration: none;   
+	text-align: center;
+	color: #000;
+}
+a:hover{
+	color: #B8860B;
+}
+.descripcion{
+	font-size: 20px;
+	margin: 20px 150px;
+}
+.coders{
+	width: 700px;
+	margin: auto;
+}
+.promo{
+	margin: 10px;
+}
+.delgada{
+	background-color: #A9A9A9;
+	height: 2px; 
+	width: 8%;
+	text-align: center;
+	margin top: 10px;
+}
+.gruesa{
+	background-color: #000;
+	height: 2px; 
+	width: 10%;
+	margin-left: 0;
+}	
+h1{
+	font-size: 15px;
+	text-align: left;
+}
+.lista{
+	margin: 20px 0 0 0;
+	text-align: center;
+}
+.lista li{ 
+	display: inline-block; 
+	width: 28%;
+	margin: 8px;
+}
+.lista a{ 
+	display: block;
+ 	position: relative; 
+ 	color: white; 
+ }
+.lista li p{ 
+	margin: 0; 
+	position: relative; 
+	bottom: 25px; 
+	left: 10px; 
+	color: white;
+}
+.foto{
+	border-radius: 100px;
+}
+.titulo{
+	font-size: 25px;
+}
+.title{
+	text-align: left;
+}
+.listita{ 
+	list-style-type: none;
+	padding:0;
+	margin:0; 
+	text-align: left; 
+}
+.image{
+	color: #FFF;
+	padding: 10px;
+	background: #A9A9A9;
+	margin: 15px;
+}
+.primera{
+	width: 500px;
+}
+.segunda{
+	width: 250px;
+}
+.tercera{
+	width: 125px;
+}
+
